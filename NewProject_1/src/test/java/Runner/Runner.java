@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 	@CucumberOptions(
 
 				//format = {"pretty", "json:target/"},
-			 monochrome = false, 
+			monochrome = false, 
 			 
 			 //format = {"pretty", "json:target/cucumber.json"},
 			 plugin={"html:target/cucumber-html-report"},
